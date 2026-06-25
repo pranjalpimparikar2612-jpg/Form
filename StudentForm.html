@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Registration Form</title>
+
+<!-- Block CSS -->
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+    }
+
+    h1{
+        color: navy;
+    }
+
+    fieldset{
+        width: 50%;
+        margin: auto;
+        border: 2px solid blue;
+        padding: 20px;
+        background-color: white;
+    }
+
+    legend{
+        color: darkred;
+        font-size: 18px;
+    }
+
+    input, textarea, select{
+        margin: 5px;
+        padding: 5px;
+    }
+
+    button{
+        background-color: green;
+        color: white;
+        padding: 8px 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    table{
+        margin: auto;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th{
+        background-color: navy;
+        color: white;
+    }
+
+    th, td{
+        padding: 10px;
+        text-align: center;
+    }
+</style>
+
+</head>
+<body>
+
+<center>
+    <!-- Inline CSS -->
+    <h1 style="text-decoration: underline;">
+        Student Registration Form
+    </h1>
+</center>
+
+<form action="welcome.html" method="get">
+
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+
+        Password -
+        <input type="password"><br>
+
+        Email -
+        <input type="email"><br>
+
+        Number -
+        <input type="number"><br>
+
+        Date -
+        <input type="date"><br>
+
+        Gender -
+        <input type="radio" name="gen">Female
+        <input type="radio" name="gen">Male
+        <br>
+
+        Subject -
+        <input type="checkbox">Python<br>
+        <input type="checkbox">Java<br>
+        <input type="checkbox" checked>AI<br>
+
+        Feedback -
+        <textarea rows="5" cols="20"
+        style="background-color: lightyellow;"
+        placeholder="Give us your feedback"></textarea>
+        <br><br>
+
+        Subjects -
+        <select>
+            <option>AI</option>
+            <option>ML</option>
+            <option>Computer</option>
+            <option>Python</option>
+        </select>
+
+    </fieldset>
+
+    <br>
+
+    <!-- Inline CSS -->
+    <center>
+        <button type="submit" style="border-radius:10px;">
+            Submit
+        </button>
+    </center>
+
+    <table border="3">
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>Pranjal</td>
+            <td>TYCO</td>
+            <td>WEB DEV</td>
+        </tr>
+
+        <tr>
+            <td>Pranav</td>
+            <td>Trainer</td>
+            <td>WEB DEV</td>
+        </tr>
+
+        <tr>
+            <td>Divyani</td>
+            <td>TYCO</td>
+            <td>WEB DEV</td>
+        </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>
