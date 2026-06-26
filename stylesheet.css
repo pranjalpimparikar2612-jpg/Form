@@ -1,0 +1,47 @@
+.para{
+    font-size:25px;
+    color:antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+}
+/*div{
+    margin:50px;
+    padding:500px;
+    color:aliceblue;
+    border:2px solid white;
+    text-align:center;
+}*/
+
+
+.card{
+    border:2px solid white;
+    color:white;
+    padding:150px;
+    text-align:center;
+    margin:100px;
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container{
+    color:white;
+    display: flex;
+    justify-content:center;
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    align-items:center;
+}
+
+.bar{
+    display:flex;
+    justify-content: space-around;
+    padding:15px;
+    background-color: grey;
+}
+.bar a{
+    color:aquamarine;
+}
